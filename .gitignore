@@ -1,0 +1,42 @@
+# Java / Kotlin / Android Studio
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+/build/
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Signing
+*.jks
+*.keystore
+*.p12
+*.key
+
+# OS Files
+*.swp
+*.swo
+*.swn
+*.log
+Thumbs.db
+desktop.ini
+
+# Android Studio navigation files
+.navigation/
+
+# Jetpack Compose specific
+*.apk
+*.ap_
+
+# Ignore generated SQLite database (if used during dev)
+*.db
+*.db-shm
+*.db-wal
+
