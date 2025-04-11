@@ -26,27 +26,6 @@
 - **SharedPreferences** (pour la gestion du nom utilisateur)
 - **Layouts XML** : design simple et clair avec `LinearLayout`
 
-## 📂 Structure des fichiers
-
-com.example.taskmanager/
-│
-├── WelcomeActivity.java       # Écran de bienvenue avec enregistrement du nom
-├── MainActivity.java          # Activité principale avec menu
-├── AjoutActivity.java         # Écran pour ajouter une tâche
-├── ListeActivity.java         # Écran pour afficher les tâches
-├── DBHelper.java              # Classe de gestion de la base de données SQLite
-│
-├── res/
-│   ├── layout/
-│   │   ├── activity_welcome.xml   # Layout pour WelcomeActivity
-│   │   ├── activity_main.xml      # Layout pour MainActivity
-│   │   ├── activity_ajout.xml     # Layout pour AjoutActivity
-│   │   └── activity_liste.xml     # Layout pour ListeActivity
-│   │
-│   └── menu/
-│       └── main_menu.xml          # Menu de navigation dans MainActivity
-
-
 ## ▶️ Comment l'exécuter
 
 1. Ouvrir le projet avec **Android Studio**.
