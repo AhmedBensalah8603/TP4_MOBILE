@@ -1,0 +1,31 @@
+openapi: 3.0.3
+info:
+  title: Avatar Backend (Stub)
+  version: 0.1.0
+paths:
+  /avatar/message:
+    post:
+      summary: Send message to Avatar
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                text:
+                  type: string
+      responses:
+        '200':
+          description: Avatar reply
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  replyText:
+                    type: string
+                  ttsUrl:
+                    type: string
+        '500':
+          description: Error

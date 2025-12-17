@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930238557912",
+    "project_id": "aquora-795ac",
+    "storage_bucket": "aquora-795ac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930238557912:android:25d8191ede110a441e71ad",
+        "android_client_info": {
+          "package_name": "com.example.aquora_dashboard_v2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jDOSQKoHz8lA5QERCNA7xFVw-vvCaBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
